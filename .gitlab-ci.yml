@@ -1,0 +1,28 @@
+stages:
+  - deploy
+deploy_development:
+  stage: deploy
+  script:
+    - rsync -av * /var/www/html/dev.muslim.uz/ --no-perms --no-owner --no-group
+    - cd /var/www/html/dev.muslim.uz/
+    - composer update
+    - YII_ENV=dev php ./init --env=Development --overwrite=All
+    - YII_ENV=dev php ./yii migrate/up --interactive=0
+  environment:
+    name: development
+    url: https://www.dev.muslim.sayti.uz/
+  only:
+  - develop
+deploy_production:
+  stage: deploy
+  script:
+    - rsync -av * /var/www/html/muslim.uz/ --no-perms --no-owner --no-group
+    - cd /var/www/html/muslim.uz/
+    - composer update
+    - YII_ENV=prod php ./init --env=Production --overwrite=All
+    - YII_ENV=prod php ./yii migrate/up --interactive=0
+  environment:
+    name: production
+    url: https://www.muslim.sayti.uz/
+  only:
+    - master

@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px !important;
+}
+.header_top-inner {
+  background: #24292D;
+}
+.header-logo,
+.header-search,
+.header-toggler {
+  display: none;
+}
+#section2 {
+  display: flex;
+  align-items: center;
+}
+.header_mobile-top{
+  display: none;
+}
+.header-black {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+/*.after:after {*/
+/*  content: "";*/
+/*  display: inline-block;*/
+/*  height: 12px;*/
+/*  width: 1px;*/
+/*  background: #ccc;*/
+/*}*/
+.after:before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background: #ccc;
+}
+.after {
+  margin: 0 -55px;
+}
+.specialFeaturedBtn span img {
+  padding-right: 5px;
+}
+.muxarram {
+  color: #ACACAC;
+  text-decoration: none;
+  font-size:14px;
+}
+.muxarram:hover{
+  color: #ACACAC;
+  text-decoration: none;
+}
+#volume {
+  padding-right: 5px;
+  color: #cccccc;
+  font-size: 16px;
+}
+.input_text {
+  margin: 0 25px;
+  color: #ACACAC;
+}
+.input_text-inner {
+  border: 1px solid #5b5b5b;
+  border-radius: 2px;
+  background: none;
+  outline: none;
+  width: 271px;
+  padding: 0 6px;
+  color: #fff;
+  padding: 1px 7px;
+}
+.search_input {
+  margin-left: -20px;
+  font-size: 15px;
+  color: #5B5B5B;
+}
+#glasses {
+  padding-right: 5px;
+  color: #ACACAC;
+  font-size: 16px;
+}
+
+.after {
+  color: #ACACAC;
+}
+.month_day {
+  color: #ACACAC;
+}
+.col-middle{
+  font-size:13px ;
+}
+.month_day:hover{
+  text-decoration: none;
+  color: #ACACAC;
+}
+.language {
+  color: #ACACAC;
+}
+.special {
+  color: #ACACAC;
+}
+.select_right {
+  border: none;
+  outline: none;
+  background: #333;
+  padding: 5px 7px;
+  border-radius: 15px;
+  color: #ACACAC;
+  position: relative;
+}
+
+.box {
+  padding: 5px 0;
+  position: relative;
+}
+
+.box select {
+  background-color: #333;
+  color: #cccccc;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 14px;
+  padding-right: 30px;
+  font-size: 13px;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 15px;
+}
+.box button {
+  position: absolute;
+  top: 6px;
+  right: 1px;
+  width: 26px;
+  height: 26px;
+  font-weight: 700;
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  background-color: #BFBFBF;
+  border: none;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.box-input{
+  position: absolute;
+  top: 1px;
+  right: 7px;
+}
+.page-nav_icons{
+  color: #606060;
+  font-size: 20px !important;
+}
+.img_search{
+ width: 25px;
+}
+.images_audio{
+  padding-right: 10px;
+}
+@media (max-width: 1200px){
+  .input_text-inner{
+    width: 135px;
+  }
+}
+
+@media (max-width:990px){
+   .header_mobile-top{
+     display: block;
+   }
+  b {
+    color: #FFFFFF;
+  }
+  .month_day{
+    display: none;
+  }
+  .namoz-mobile-icons{
+    position: absolute;
+    top: 5px;
+    padding-left: 5px;
+  }
+  .modal.show{
+    z-index: 9999999995645459;
+  }
+  .header-black{
+    padding: 12px 0;
+  }
+  .header_top.active{
+    position: sticky;
+    z-index: 999999;
+    top: 0px;
+  }
+  .off_canvars_overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    cursor: crosshair;
+    background: rgba(0, 0, 0, 0.6);
+    top: 57px; }
+  .off_canvars_overlay.active {
+    opacity: .5;
+    visibility: visible;
+ }
+  .wrapper{
+  padding: 0;
+  }
+  .header_test{
+    display: none;
+  }
+  .muxarram{
+    display: none;
+  }
+  .specialFeatured{
+    display: none;
+  }
+  .after {
+    display: none;
+  }
+  .input_text{
+   margin: 0 15px;
+    display: none;
+  }
+  .input_text-inner{
+    width: 105px;
+    font-size: 11px;
+    color:#ACACAC;
+    padding: 0px 3px;
+  }
+  .box select {
+    font-size: 11px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .box button {
+    top: 8px;
+    right: 2px;
+    width: 19px;
+    height: 19px;
+    font-size: 15px;
+  }
+  .box-input {
+    top: 0px;
+    right: 5px;
+  }
+}
+/* --------------------------------------------------------------------------------- */

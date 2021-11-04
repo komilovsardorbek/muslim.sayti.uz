@@ -1,0 +1,28 @@
+
+body {
+  i", "Segoe UI Symbol", "Noto Color Emoji", sans-serif !important;
+    font-weight: 400;
+
+}
+h1, h2, h3, h4, h5, h6, b {
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+.text-button a {
+    color: #999999;
+}
+.text-button a:hover {
+    color: #00A3FF;
+}
+

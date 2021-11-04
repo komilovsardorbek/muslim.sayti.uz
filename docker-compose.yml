@@ -1,0 +1,65 @@
+version: '3.7'
+
+services:
+
+  nginx:
+    image: nginx:1.17-alpine
+    container_name: muslimUz-nginx
+    restart: unless-stopped
+    working_dir: /app
+    ports:
+      - 20080:80 # frontend
+      - 20081:81 # backend
+      - 20082:82 # storage
+    volumes:
+      - ./:/app
+      - ./docker/nginx:/etc/nginx/conf.d
+    links:
+      - php-fpm
+    depends_on:
+      - php-fpm
+      - db
+    networks:
+      - muslimUz
+
+  php-fpm:
+    build: docker/php-fpm
+    restart: unless-stopped
+    container_name: muslimUz-php
+    working_dir: /app
+    ports:
+      - 9000:9000
+    volumes:
+      - ./:/app
+    links:
+      - db
+    depends_on:
+      - db
+    networks:
+      - muslimUz
+
+  db:
+    image: mysql:5.7
+    restart: unless-stopped
+    ports:
+      - 33061:3306
+    volumes:
+      - ./docker/storage/mysql:/var/lib/mysql
+      - ./docker/dump:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_DATABASE: muslimUz
+      MYSQL_USER: ROOT_USER
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+      MYSQL_PASSWORD:
+      MYSQL_ROOT_PASSWORD:
+    networks:
+      - muslimUz
+
+
+networks:
+  muslimUz:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.239.0/28

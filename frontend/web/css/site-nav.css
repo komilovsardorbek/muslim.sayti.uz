@@ -1,0 +1,39 @@
+.site-nav{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.site-nav li {
+    padding-right: 12px !important;
+}
+.site-nav li a {
+    font-size: 20px;
+    color: #00A3FF;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.site-nav li a:hover {
+    color: #00A3FF;
+}
+.chevron-down{
+    color: #00A3FF;
+}
+.dropdown-menu{
+    border: 0;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 12%), 0 10px 10px rgb(0 0 0 / 2%);
+
+}
+.dropdown-menu li a{
+    color: #00A3FF;
+    font-size: 15px;
+}
+.drop_down{
+    color: #8d959d;
+    font-size: 15px;
+}
+.close_bar{
+    position: absolute;
+    right: 8px;
+    top: 0px;
+}

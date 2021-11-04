@@ -1,0 +1,130 @@
+.text-button {
+    padding: 8px 15px;
+    background: #fff;
+    font-size: 16px;
+    color: #62696D;
+}
+
+.header_b-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.post_card {
+    padding: 25px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+.inner_page-media {
+    padding: 5px;
+    border: 0.853125px solid #DDDDDD;
+
+}
+
+#inner_page-title {
+    color: #62696D;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.media_p {
+    padding: 0 10px;
+}
+
+.page_text {
+    font-weight: 400;
+    color: 2 C3E50;
+    size: 16px;
+    padding: 15px 0;
+}
+
+.page_border {
+    border-left: 6px solid #21A3F9;
+    background: #F4F6F6;
+    padding: 0px 15px;
+
+}
+
+.new_post {
+    padding: 5px;
+    background: #F4F6F6;
+    border: 0.853125px solid #DDDDDD;
+}
+
+.new_post div {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.inner_center {
+    border: 0.853125px solid #DDDDDD;
+    background-color: #FFF;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.inner_center-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 35px;
+    color: #62696D;
+    line-height: 30px;
+}
+
+.autor {
+    background-color: #EEE;
+}
+
+.border_left {
+    padding: 30px 40px;
+    display:flex;
+    align-items:center;
+}
+
+.img_shayx {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img_shayx1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.padding_botton {
+    padding: 30px 40px;
+}
+
+.bold_word {
+    font-weight: 600;
+}
+.region__pad{
+    padding: 0px 5px;
+    font-size: 16px;
+    color: #615d5d;
+    font-weight: 600;
+}
+.icons_down{
+    color: #00A3FF;
+    font-size: 25px;
+}
+.icons_calendar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.icons-inner{
+    font-size: 28px;
+    padding: 10px 7px;
+}
+.icons-inner:first-child{
+    padding-left: 0 !important;
+}

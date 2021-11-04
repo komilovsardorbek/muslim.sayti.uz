@@ -1,0 +1,338 @@
+.icons_page-one{
+    margin: 20px 0;
+    padding: 10px 0;
+    background: #FFFFFF;
+    border: 0.853125px solid #DDDDDD;
+    box-sizing: border-box;
+}
+.counter-inner{
+    padding-bottom: 15px;
+    white-space: nowrap;
+}
+.text-icon-bold{
+    font-size: 16px;
+    line-height: 20px;
+    color: #62696D;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#icons_img{
+    padding-top: 10px;
+}
+.namaz_time-inner:hover{
+    color: #00A3FF;
+    cursor: pointer;
+}
+.owl-carousel-inner:hover{
+    color: #00A3FF;
+}
+.new-muslim{
+    display: none;
+}
+.new-muslim{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #fff;
+    padding: 15px;
+    width: 350px;
+    height: auto;
+    box-shadow: 0 14px 28px rgb(0 0 0), 0 10px 10px rgb(0 0 0 );
+}
+.new-muslim-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.new-TV{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.new-muslim-title{
+    color: #0a568c;
+    font-weight: bold;
+    font-size: 18px;
+    cursor:pointer;
+}
+.new_wrapper{
+    color: #333;
+    font-size: 15px;
+}
+.site-error{
+    color: rgb(0, 6, 83);
+    font-size: 30px;
+    padding:30px 0;
+}
+.header_test{
+    background: #24292D;
+}
+.old-site-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.old-site a {
+    color: #acacac;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8px 0;
+    text-decoration: none;
+
+}
+.old-site a:before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 0px;
+    height: 2px;
+    background-color: #cccccc;
+    transition: width 1.6s;
+
+}
+.old-site a:hover{
+    color: #cccccc;
+
+}
+.old-site a:hover:before{
+    width: 100px;
+}
+.select{
+    font-size:13px;
+}
+.select:before{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: 0px;
+    height: 2px;
+    background-color: #cccccc;
+    transition: width 1.6s;
+}
+.select:hover:before{
+    width: 140px;
+}
+.card_name:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.iconss_inner{
+    padding: 0;
+}
+.images-box{
+    border-radius: 10px;
+    box-shadow: 0 0 22px 1px rgba(0, 0, 0, 0.7);
+    max-width: 100% !important;
+}
+.tiny_slider{
+    display: none;
+}
+.site-nav{
+    padding: 0px !important;
+}
+.page-nav__collapse ul {
+    margin-top: 12px;
+}
+img{
+    max-width: none !important;
+}
+.categories{
+    position: absolute;
+    z-index: 9999999;
+    right: 0;
+}
+.box-categoris-inner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 120px;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    color: #62696D;
+    font-weight: 500;
+    cursor: pointer;
+}
+.box-categoris-inner:hover{
+    background-color: #cccccc;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+.dropbtn {
+    background-color: #fff;
+    color: #62696D;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    top: 58px;
+    left: -40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+@media (max-width:990px){
+    .new-muslim{
+        position: absolute;
+        top: 10px !important;
+        right: 20px !important;
+        width: 215px;
+        height: auto;
+    }
+    img{
+        max-width: none !important;
+    }
+    .new-TV{
+        font-size: 14px;
+    }
+    .tiny_slider{
+        display: block;
+    }
+    .new-muslim-title{
+        font-size: 14px;
+    }
+    .site-error{
+        font-size: 15px;
+    }
+    .icon-bumerang{
+        padding-right: 10px !important;
+    }
+}
+.select a:hover {
+    color: #cccccc;
+}
+.uk-width-3-4{
+ width: 64% !important;
+}
+.counter-inner i{
+    color: #B3B6B7;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social__item a i {
+    border-radius:35px;
+    border: 1px solid #eee;
+    color: #818181;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    transition: all .4s;
+
+}
+.social__item{
+    width: 50px;
+}
+.social__item a i:hover{
+    border: 1px solid #00A3FF;
+    color: #00A3FF;
+    box-shadow: 5px 10px 20px  #00A3FF inset;
+}
+/*articles CSS*/
+
+.articles_top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.articles_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.articles_top-inner{
+    border-radius:8px;
+    margin: 7px;
+    padding:5px 10px;
+    background-color: #FFFFFF;
+}
+.articles_top-inner a{
+    color:#686868;
+}
+.post_cn {
+    color: #333333;
+    margin:0;
+}
+.post_name {
+ color:#C6C6C6;
+}
+.inner_mages_top {
+    width:100%;
+    border-radius: 8px;
+}
+.articles_top-inner:hover {
+    background-color: #00A3FF;
+}
+.articles_top-inner:hover i{
+    color: #fff;
+}
+.articles_top-inner:hover a {
+    color: #fff;
+}
+.articles-icons{
+    transform: rotate(180deg);
+    color: #777777;
+}
+.loadimmer{
+    display: flex;
+    align-items: center;
+}
+.articles_top-inner a {
+    color: #777777;
+}
+#card_top{
+    padding:9px !important;
+    border:none;
+    box-shadow: 0px 4px 24px -4px rgba(125, 125, 125, 0.1);
+    border-radius: 8px;
+}
+.card-body-redizayn{
+    padding:0 8px;
+}
+.carousel-indicators{
+    bottom: 0px;
+    margin:0;
+    left: 596px;
+
+}
+.carousel-indicators li {
+    width:17px;
+    height:17px;
+    border-radius:50%;
+    background-color: rgba(175, 175, 175, 0.5);
+
+
+}
+.carousel-indicators li.active {
+    background-color: #008AD8;
+
+}
+.card_footer{
+    color: #CACACA;
+    font-size: 12px;
+    margin-left:12px;
+}

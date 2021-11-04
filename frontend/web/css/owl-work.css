@@ -1,0 +1,36 @@
+@media (max-width: 990px) {
+    .brand-item {
+        background-color: #FFFFFF;
+        border-radius: 26px;
+        border: 1px solid #DCDCDC;
+        padding: 7px 10px;
+    }
+    .audio_player{
+        width: 100% !important;
+    }
+    .brand-item div {
+        color: #333333;
+        font-size: 14px;
+    }
+    .slick-track{
+        width: 900px !important;
+        padding-bottom: 15px;
+    }
+    .slick-slide{
+        width: 150px !important;}
+
+    .slick-arrow {
+        position: absolute;
+        top: -1px;
+        right: -11px;
+        background-color: #ffffff !important;
+        border: 1px solid #DCDCDC;
+        border-radius: 50%;
+    }
+    .slick-prev{
+        display: none !important;
+    }
+}
+section {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,46 @@
+.header_center-inner{
+    padding:3px 0;
+}
+.header_intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.namaz_time{
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+}
+.empty:before{
+    content: "";
+    display:inline-block;
+    height: 45px;
+    width: 1px;
+    background-color: #ccc;
+   
+}
+.namaz_time-inner{
+    margin: 0 30px;
+}
+.textcenter{
+    text-align: center;
+    font-weight:500 ;
+    color: #62696D;
+}
+.days{
+    margin-left: 5px;
+}
+#texttop{
+    font-weight: 400;
+    color:#62696D;
+}
+.text_color{
+    color:#00A3FF;
+    text-align: center;
+}
+@media (max-width:990px){
+    .header_center-inner {
+        display:  none;
+    }
+}
+

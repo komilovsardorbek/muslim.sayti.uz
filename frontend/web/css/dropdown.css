@@ -1,0 +1,178 @@
+.img_inner-svg{
+    width: 2rem !important;
+}
+@media (max-width: 990px) {
+    .dropdown {
+        display: none;
+    }
+    .mobile_dropdown {
+        list-style: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        border-bottom: 1px solid #434343 ;
+    }
+    .mobile_dropdown-inner:hover{
+        color: #f8f8f8;
+    }
+.drop_down{
+    opacity: 1 !important;
+}
+    .mobile_dropdown-inner {
+        padding-right: 127px !important;
+        padding-left: 20px;
+        font-size: 16px;
+        color: #F8F8F8;
+
+    }
+    .mobile_dropdown {
+        display: block !important;
+    }
+
+    .mobile_dropdown-wrapper {
+        padding-left: 30px;
+
+    }
+
+    .mobile_dropdown-wrapper li  a{
+        color: #f8f8f8;
+    }
+    .bottom_fixe{
+        position: fixed;
+        bottom: -220px;
+        padding: 18px;
+        list-style: none;
+        display: none;
+    }
+    .site_icons{
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+    .icons_b{
+        padding-right: 20px;
+        font-size: 15px;
+    }
+}
+.bottom_fixe{
+    display: none ;
+}
+
+.mobile_dropdown-wrapper {
+    display: none;
+}
+
+.change_inos {
+    transform: rotate(90deg);
+
+}
+
+.iconslang {
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    color: #f8f8f8;
+    padding: 8px;
+}
+
+.mobile_dropdown {
+    display: none;
+}
+.muslimnamaz{
+    padding: 21px 16px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+
+}
+.muslimnamaz div {
+    color: #fff;
+}
+.muslimnamaz b {
+    color: #fff;
+}
+.muslimnamaz.activenow div {
+    color: #25FFE5;
+    font-size: 20px;
+}
+.muslimnamaz.activenow b {
+    color: #25FFE5;
+}
+.muslimnamaz {
+    display: flex;
+}
+.muslimnamaz b{
+    position: absolute;
+    right: 182px;
+}
+.suxurmobile{
+    position: absolute;
+    right: 25px;
+    top: 107px;
+    padding: 3px 15px;
+    background-color: #00A3FF;
+    color: #FFFFFF;
+}
+.makruxmobile{
+    position: absolute;
+    right: 25px;
+    top: 172px;
+    padding: 3px 15px;
+    background-color: #00A3FF;
+    color: #FFFFFF;
+}
+.iftormobile{
+    position: absolute;
+    right: 25px;
+    top: 366px;
+    padding: 3px 15px;
+    background-color: #00A3FF;
+    color: #FFFFFF;
+}
+.taxadjudmobile{
+    position: absolute;
+    right: 25px;
+    top: 433px;
+    padding: 3px 15px;
+    background-color: #00A3FF;
+    color: #FFFFFF;
+}
+.image_card{
+    background-image: url("/img/namaztime.png");
+    background-size: unset;
+
+}
+.namaz-nav-bar-mobile__link{
+    color: #ffffff;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.namaz-nav-bar-mobile__date{
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.uk-width-4-5{
+    width: 67% !important;
+}
+.icons--mobile{
+    border-bottom: 1px solid #cccccc;
+}
+.drop_down{
+    opacity: 0;
+}
+.dropdown-menu li a {
+      padding: 30px;
+}
+.dropdown-menu li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dropdown-menu li:hover {
+    background: #00A3FF;
+}
+.dropdown-menu li a:hover {
+    color: #FFFFFF;
+}
+.dropdown-menu{
+ padding: 0;
+}

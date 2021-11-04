@@ -1,0 +1,129 @@
+.image_card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image_card:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.namaz-nav-bar-mobile__footer-top {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #4a4a4a;
+    height: 70px;
+    padding: 0 15px;
+    line-height: 1;
+}
+.namaz-times-mobile__item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 0 15px;
+    padding: 0 15px;
+    border-bottom: 1px solid #c0d9db;
+}
+.namaz_display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.namaz-times-mobile_dhuhr .namaz-times-mobile__item:first-child {
+    border-top: 1px solid #aec5d7;
+    border-bottom: 1px solid #aec5d7;
+}
+.namaz-times-mobile__title {
+    flex-grow: 1;
+}
+.namaz-times-mobile__label {
+    position: relative;
+    flex-basis: 65px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    margin-left: 13px;
+    padding: 1px 6px;
+    color: #fff;
+    background-color: #90c9cd;
+    text-align: center;
+}
+.namaz-times-mobile_dhuhr .namaz-times-mobile__label {
+    background-color: #4ebef1;
+}
+.namaz-nav-bar-mobile__qibla-block {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 1;
+}
+.namaz-nav-bar-mobile__qibla {
+    background-size: 17px;
+    background-color: rgba(68, 68, 68, 0.6);
+    color: #fff;
+    padding: 10px 15px;
+
+}
+.namaz_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    background-color: #27C3F0;
+}
+.card-header {
+    padding: 0 !important;
+}
+.site-nav__dropdown{
+    padding: 0px;
+}
+.namaz_name {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px){
+    .header_mobile-top{
+        display: block;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .card {
+        border: none !important;
+    }
+    .time-month{
+        display: none;
+    }
+    .rotate{
+        transform: rotate(270deg);
+    }
+}

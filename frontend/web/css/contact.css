@@ -1,0 +1,74 @@
+.gym_slider_inner {
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+}
+
+.conatct-page {
+    padding: 60px 0;
+}
+
+.contact_icons {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-bottom: 27px;
+    color: #00A3FF;
+}
+
+.gym_heading h4 {
+    margin: 0;
+    padding-bottom: 27px;
+    color: #333;
+    font-size: 30px;
+}
+
+.gym_contact_list {
+    padding-bottom: 27px;
+}
+
+.phone_number {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+
+}
+
+.phone_number:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+.icons_contact {
+    color: #00A3FF;
+
+}
+
+.gym_contactform_dv {
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+}
+
+.gym_field_inner {
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+}
+
+.gym_form_field {
+    padding-bottom: 25px;
+    text-align: end;
+}
+
+.gym_btn {
+    background-color: #00A3FF;
+    padding: 10px 25px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    color: #fff;
+    text-align: end;
+}
+.gym_contactform_dv h4 {
+    padding-bottom: 30px;
+}

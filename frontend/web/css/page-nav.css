@@ -1,0 +1,17 @@
+@media (max-width:990px) {
+    .articles_top{
+        display: block;
+    }
+    .articles_top-inner a{
+        font-size: 13px;
+    }
+    .articles_card{
+        display: block;
+    }
+
+}
+.articles_inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
